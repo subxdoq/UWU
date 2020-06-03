@@ -1,9 +1,10 @@
+
 ||kissanime.ru^*.aspx$subdocument,first-party
 kissanime.ru##div.divCloseBut
 kissanime.ru##.videoAdClose
 kissanime.ru###adsIfrme7
 
-One of these should work ¯_(ツ)_/¯
+#One of these should work ¯_(ツ)_/¯
 kissanime.ru##+js(abort-current-inline-script.js, InitCloseButton)
 kissanime.ru##+js(abort-current-inline-script.js, isClickHide)
 kissanime.ru##+js(abort-current-inline-script.js, AddCloseButton)
@@ -11,15 +12,22 @@ kissanime.ru##+js(abort-current-inline-script.js, AddCloseButton)
 kissanime.ru###divContentVideo:style(display: block !important)
 kissanime.ru###divVideo:style(display: block !important)
 
+# CF Captcha Fix
+@@||hcaptcha.com$script,domain=kissanime.ru
+
+
 ||kimcartoon.to^*.aspx$subdocument,first-party
 kimcartoon.to##div.divCloseBut
 kimcartoon.to##.videoAdClose
 kimcartoon.to###adsIfrme7
 
-One of these should work ¯_(ツ)_/¯
+#One of these should work ¯_(ツ)_/¯
 kimcartoon.to##+js(abort-current-inline-script.js, InitCloseButton)
 kimcartoon.to##+js(abort-current-inline-script.js, isClickHide)
 kimcartoon.to##+js(abort-current-inline-script.js, AddCloseButton)
 
 kimcartoon.to###divContentVideo:style(display: block !important)
 kimcartoon.to###divVideo:style(display: block !important)
+
+# CF Captcha Fix
+@@||hcaptcha.com$script,domain=kimcartoon.to
